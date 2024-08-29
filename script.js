@@ -8,9 +8,9 @@ function validateSyntax() {
 
   // Check if input matches the regex pattern
   if (regEx.test(input)) {
-    result = "Valid Syntax \u{1F7E2}"; //Green filled circle emoji for valid syntax
+    result = "Valid Syntax \u{1F7E2}"; //unicode for green filled circle emoji for valid syntax
   } else {
-    result = "Invalid Syntax \u{1F534}"; //Red filled circle emoji for invalid syntax
+    result = "Invalid Syntax \u{1F534}"; //unicode for Red filled circle emoji for invalid syntax
   }
 
   document.getElementById("result").innerText = result;
